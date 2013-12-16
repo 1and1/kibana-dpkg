@@ -1,0 +1,5 @@
+kibana (3.0.0milestone4-1) unreleased; urgency=low
+
+  * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+
+ -- Andreas Wirooks <andreas.wirooks@1und1.de>  Thu, 12 Dec 2013 12:50:11 +0100

@@ -1,0 +1,9 @@
+sample/apache_ldap.conf etc/apache2/sites-available
+sample/nginx.conf etc/nginx/sites-available
+src/config.js etc/kibana
+src/index.html usr/share/kibana
+src/app usr/share/kibana
+src/css usr/share/kibana
+src/font usr/share/kibana
+src/img usr/share/kibana
+src/vendor usr/share/kibana

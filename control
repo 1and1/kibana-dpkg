@@ -1,0 +1,16 @@
+Source: kibana
+Section: web
+Priority: optional
+Maintainer: Andreas Wirooks <andreas.wirooks@1und1.de>
+Build-Depends: debhelper (>= 8.0.0), quilt
+Standards-Version: 3.9.3
+Homepage: http://www.elasticsearch.org
+#Vcs-Git: git://git.debian.org/collab-maint/kibana.git
+#Vcs-Browser: http://git.debian.org/?p=collab-maint/kibana.git;a=summary
+
+Package: kibana
+Architecture: all
+Depends: ${misc:Depends}, apache2 | nginx
+Description: Visualize logs and time-stamped data
+ Visualize logs and time-stamped data
+

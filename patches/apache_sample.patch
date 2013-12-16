@@ -1,0 +1,30 @@
+Description: Correct path in apache example config
+ Correct path in apache example config
+ .
+ kibana (3.0.0milestone4-1) unreleased; urgency=low
+ .
+   * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+Author: Andreas Wirooks <andreas.wirooks@1und1.de>
+
+--- kibana-3.0.0milestone4.orig/sample/apache_ldap.conf
++++ kibana-3.0.0milestone4/sample/apache_ldap.conf
+@@ -15,15 +15,15 @@
+   SSLCertificateFile      /path/to/public.crt
+   SSLCertificateKeyFile   /path/to/private.key
+  
+-  DocumentRoot /path/to/kibana3
+-  <Directory /path/to/kibana3>
++  DocumentRoot /usr/share/kibana
++  <Directory /usr/share/kibana>
+     Allow from all
+     Options -Multiviews
+   </Directory>
+  
+   LogLevel debug
+-  ErrorLog /path/to/logs/error_log
+-  CustomLog /path/to/logs/access_log combined
++  ErrorLog /var/log/apache2/kibana_error.log
++  CustomLog /var/log/apache2/kibana_access.log combined
+  
+   # Set global proxy timeouts
+   <Proxy http://127.0.0.1:9200>

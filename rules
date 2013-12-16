@@ -1,0 +1,21 @@
+#!/usr/bin/make -f
+# -*- makefile -*-
+# Sample debian/rules that uses debhelper.
+# This file was originally written by Joey Hess and Craig Small.
+# As a special exception, when this file is copied by dh-make into a
+# dh-make output file, you may use that output file without restriction.
+# This special exception was added by Craig Small in version 0.37 of dh-make.
+
+# Uncomment this to turn on verbose mode.
+#export DH_VERBOSE=1
+
+%:
+	dh $@ --with-quilt
+
+override_dh_fixperms:
+	dh_fixperms
+	find debian/kibana/etc/apache2/ -type f -print0 | xargs -0 chmod 644
+	find debian/kibana/etc/kibana/ -type f -print0 | xargs -0 chmod 644
+	find debian/kibana/usr/share/kibana/ -type f -print0 | xargs -0 chmod 644
+	mv debian/kibana/etc/apache2/sites-available/apache_ldap.conf debian/kibana/etc/apache2/sites-available/kibana_sample.conf
+	mv debian/kibana/etc/nginx/sites-available/nginx.conf debian/kibana/etc/nginx/sites-available/kibana_sample.conf
