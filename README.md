@@ -14,7 +14,7 @@ git checkout v3.0.0milestone4
 tar czf ../kibana_3.0.0milestone4.orig.tar.gz ../kibana-3.0.0milestone4
 git clone https://github.com/1and1/kibana-dpkg.git debian
 cd ..
-dpkg-source -b https://github.com/1and1/kibana-dpkg.git
+dpkg-source -b kibana-3.0.0milestone4
 ```
 
 Now the binary package can be built with dpkg-buildpackage or pbuilder the usual way.
