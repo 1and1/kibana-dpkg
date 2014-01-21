@@ -1,0 +1,2 @@
+kibana: embedded-javascript-library usr/share/kibana/vendor/underscore.js
+kibana: executable-not-elf-or-script etc/nginx/sites-available/kibana_sample.conf

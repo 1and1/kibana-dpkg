@@ -12,5 +12,5 @@ Package: kibana
 Architecture: all
 Depends: ${misc:Depends}, apache2 | nginx
 Description: Visualize logs and time-stamped data
- Visualize logs and time-stamped data
+ As a frontend to elasticsearch this too visualizes logs and time-stamped data
 
