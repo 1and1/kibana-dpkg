@@ -6,8 +6,8 @@ Description: Correct path in apache example config
    * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
 Author: Andreas Wirooks <andreas.wirooks@1und1.de>
 
---- kibana-3.0.0milestone4.orig/sample/apache_ldap.conf
-+++ kibana-3.0.0milestone4/sample/apache_ldap.conf
+--- a/sample/apache_ldap.conf
++++ b/sample/apache_ldap.conf
 @@ -15,15 +15,15 @@
    SSLCertificateFile      /path/to/public.crt
    SSLCertificateKeyFile   /path/to/private.key

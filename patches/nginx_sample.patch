@@ -6,9 +6,9 @@ Description: Correct path in apache example config
    * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
 Author: Andreas Wirooks <andreas.wirooks@1und1.de>
 
---- kibana-3.0.0milestone4.orig/sample/nginx.conf
-+++ kibana-3.0.0milestone4/sample/nginx.conf
-@@ -17,7 +17,7 @@ server {
+--- a/sample/nginx.conf
++++ b/sample/nginx.conf
+@@ -17,7 +17,7 @@
    access_log            /var/log/nginx/kibana.myhost.org.access.log;
  
    location / {
@@ -16,3 +16,4 @@ Author: Andreas Wirooks <andreas.wirooks@1und1.de>
 +    root  /usr/share/kibana;
      index  index.html  index.htm;
    }
+ 
