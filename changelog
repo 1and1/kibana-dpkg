@@ -1,3 +1,9 @@
+kibana (3.0.0-1) wheezy; urgency=low
+
+  * Updated to 3.0.0
+
+ -- Andreas Wirooks <andreas.wirooks@1und1.de>  Fri, 21 Mar 2014 08:28:55 +0100
+
 kibana (3.0.0milestone5-1) wheezy; urgency=low
 
   * Updated to milestone 5 and refreshed all patches
