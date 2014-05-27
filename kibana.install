@@ -1,6 +1,7 @@
 sample/apache_ldap.conf etc/apache2/sites-available
 sample/nginx.conf etc/nginx/sites-available
 src/config.js etc/kibana
+src/favicon.ico usr/share/kibana
 src/index.html usr/share/kibana
 src/app usr/share/kibana
 src/css usr/share/kibana
