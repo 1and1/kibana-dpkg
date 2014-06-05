@@ -1,3 +1,9 @@
+kibana (3.1.0-2) wheezy; urgency=low
+
+  * Updated lintian overrides
+
+ -- Andreas Wirooks <andreas.wirooks@1und1.de>  Thu, 05 Jun 2014 14:24:51 +0200
+
 kibana (3.1.0-1) wheezy; urgency=low
 
   * Updated to 3.1.0
