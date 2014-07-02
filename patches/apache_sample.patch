@@ -14,8 +14,8 @@ Author: Andreas Wirooks <andreas.wirooks@1und1.de>
  
 -  DocumentRoot /path/to/kibana3
 -  <Directory /path/to/kibana3>
-+  DocumentRoot /usr/share/kibana3
-+  <Directory /usr/share/kibana3>
++  DocumentRoot /usr/share/kibana
++  <Directory /usr/share/kibana>
      Allow from all
      Options -Multiviews
    </Directory>
