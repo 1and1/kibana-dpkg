@@ -1,3 +1,9 @@
+kibana (3.1.2-1) wheezy; urgency=low
+
+  * Updated to 3.1.2
+
+ -- Andreas Wirooks <andreas.wirooks@1und1.de>  Tue, 11 Nov 2014 15:35:44 +0100
+
 kibana (3.1.1-1) wheezy; urgency=low
 
   * Updated to 3.1.1
